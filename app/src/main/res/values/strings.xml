@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Free Recharge Swipe</string>
+
+    <string name="about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_home">Home</string>
+    <string name="user_profile">User Profile</string>
+    <string name="action_notification">Notification</string>
+    <string name="videooffers">To get your offer watch full video and click to avail your offer.</string>
+    <string name="adBuddizId">cc81a4f2-ca73-47e5-ba6c-e00f68763561</string>
+    <string name="url_expletus">http://fundoapp.com/rcregistration.asmx/LybrateOffers</string>
+
+    <string name="copy_right">Copyright © 2015 All Rights Reserved</string>
+
+
+    <string-array name="drawer_items">
+        <!--<item>Home</item>-->
+        <item>Offers</item>
+        <item>Redeem</item>
+        <item>Account Summary</item>
+        <item>My Profile</item>
+        <item>My Notifications</item>
+        <item>Setting</item>
+        <item>Terms &amp; Conditions</item>
+        <item>Privacy Policy</item>
+        <item>Exit</item>
+    </string-array>
+    <array name="drawer_icons">
+        <!--<item>@mipmap/ic_home</item>-->
+        <item>@mipmap/ic_offers</item>
+        <item>@mipmap/ic_redeem</item>
+        <item>@mipmap/ic_wallet</item>
+        <item>@mipmap/ic_profile</item>
+        <item>@mipmap/ic_notification_s</item>
+        <item>@mipmap/ic_setting</item>
+        <item>@mipmap/ic_toc</item>
+        <item>@mipmap/ic_pp</item>
+        <item>@mipmap/ic_exit</item>
+    </array>
+
+    <string name="select_gender">Select Gender</string>
+    <string name="select_occupation">Select Occupation</string>
+    <string name="select_income">Select Income</string>
+    <string name="select_m_status">Select Marital Status</string>
+
+    <array name="amount">
+        <item>"50"</item>
+        <item>"100"</item>
+    </array>
+    <array name="operator">
+        <item>"Airtel"</item>
+        <item>"BSNL"</item>
+        <item>"MTNL"</item>
+        <item>"Reliance"</item>
+        <item>"Idea"</item>
+        <item>"Vodafone"</item>
+        <item>"Aircel"</item>
+        <item>"Tata Docomo"</item>
+        <item>"Uninor"</item>
+        <item>"MTS"</item>
+        <item>"Videocon"</item>
+        <item>"Loop Mobile"</item>
+    </array>
+    <array name="gender">
+        <item>"Male"</item>
+        <item>"Female"</item>
+    </array>
+
+    <array name="occupation">
+        <item>"Student"</item>
+        <item>"Employed"</item>
+        <item>"Unemployed"</item>
+        <item>"Housewife"</item>
+        <item>"Retired"</item>
+        <item>"Self Employed"</item>
+    </array>
+
+    <array name="income">
+        <item>"Nil"</item>
+        <item>"Less than 1 LPA"</item>
+        <item>"Less than 3 LPA"</item>
+        <item>"Less than 5 LPA"</item>
+        <item>"More than 5 LPA"</item>
+    </array>
+
+    <array name="m_status">
+        <item>"Single"</item>
+        <item>"Married"</item>
+    </array>
+
+    <string name="list_item_icon">Item Icon</string>
+</resources>

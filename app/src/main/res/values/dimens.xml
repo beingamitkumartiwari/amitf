@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="glowpadview_target_placement_radius">100dip</dimen>
+    <dimen name="glowpadview_glow_radius">60dip</dimen>
+    <dimen name="glowpadview_snap_margin">34dip</dimen>
+    <dimen name="glowpadview_inner_radius">13dip</dimen>
+    <dimen name="keyguard_lockscreen_outerring_diameter">200dp</dimen>
+    <dimen name="unlock_widget_circle_size">74dp</dimen>
+    <dimen name="unlock_widget_asset_margin">22dp</dimen>
+
+
+
+</resources>

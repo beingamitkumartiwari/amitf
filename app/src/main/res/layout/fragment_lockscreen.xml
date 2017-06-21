@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainBack">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#75000000"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <DigitalClock
+                android:id="@+id/digitalClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:typeface="serif"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:shadowColor="@android:color/black" />
+
+            <AnalogClock
+                android:id="@+id/analogClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/dateDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:typeface="serif"
+                android:text="Thus 27/07/1989"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:shadowColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="50dp">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/left"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@mipmap/left_un" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/right"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:background="@mipmap/right_un" />-->
+
+        <!--</RelativeLayout>-->
+        <com.mtechno.freerechargeswipe.glow_pad.GlowPadView
+            android:id="@+id/glow_pad_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            app:targetDrawables="@array/unlock_widget_2way_targets"
+            app:handleDrawable="@drawable/ic_in_unlock_touch_handle"
+            app:innerRadius="@dimen/glowpadview_inner_radius"
+            app:outerRadius="@dimen/glowpadview_target_placement_radius"
+            app:outerRingDrawable="@drawable/ic_lockscreen_outerring"
+            app:snapMargin="@dimen/glowpadview_snap_margin"
+            app:vibrationDuration="20"
+            app:feedbackCount="1"
+            app:glowRadius="@dimen/glowpadview_glow_radius"
+            app:pointDrawable="@drawable/ic_lockscreen_glowdot" />
+    </LinearLayout>
+
+
+</LinearLayout>

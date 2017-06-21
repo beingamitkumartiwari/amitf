@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#ff272727</color>
+    <color name="my_primary_color">#fff16667</color>
+    <color name="my_primary_dark_color">#ffe94e4a</color>
+    <color name="my_accent_color">#ff9a91d3</color>
+    <color name="my_control_normal_color">#ff9085f4</color>
+    <color name="my_control_activated_color">#ff9187c6</color>
+    <color name="my_control_highlight_color">#ff887de8</color>
+    <color name="myDrawerLayoutBackground">#F2F2F2</color>
+    <color name="myBackgroundColor">#bda39fa7</color>
+    <color name="shape_green">#79BD8C</color>
+</resources>

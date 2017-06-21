@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="unlock_widget_2way_targets">
+        <item>@drawable/ic_lockscreen_frs</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@null</item>"
+    </array>
+</resources>
